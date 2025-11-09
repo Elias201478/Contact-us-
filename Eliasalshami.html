@@ -29,7 +29,7 @@
 </head>
 <body>
     <h1>Contact Elias</h1>
-    <p>Elias says: If you click "Send," you'll contact me and get a special video to watch only once after it ends. If you click "Click to Download," a text file will be downloaded.</p>
+    <p>Elias says: If you click "Send," you'll contact me and get a Malware Request to upload only once after its Saturday or tuesday. If you click "Click to Download," a text file will be downloaded.</p>
 
     <textarea id="message" placeholder="Type your message here..."></textarea>
 
@@ -57,7 +57,7 @@
         });
 
         document.getElementById('downloadText').addEventListener('click', function () {
-            const textContent = "This is a downloadable text file created by Elias.";
+            const textContent = "https://www.youtube.com/watch?v=E4WlUXrJgy4&t=1s";
             const blob = new Blob([textContent], { type: "text/plain" });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
@@ -67,3 +67,4 @@
     </script>
 </body>
 </html>
+
